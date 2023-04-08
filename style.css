@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    padding: 50px;
+}
+h1{
+    font-size: 60px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 20px;
+}
+input[type='number']{ 
+    /* */
+    font-size: 15px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid gray;
+}
+button{
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 40px; /* a parte do 40px aumenta a largura do botao, onde o 10px aumenta o tamanho e o 40 px a largura */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+#message {
+    font-size: 30px;
+    color: blueviolet;
+    margin-top: 20px;
+    padding: 20px;
+}
